@@ -46,11 +46,9 @@ Steps followed to build the model:-
 
 Models Explored
 
-Linear Regression
-
-Decision Tree
-
-Gradient Boosting
+1.Linear Regression
+2.Decision Tree
+3.Gradient Boosting
 
 Results
 The project aims to showcase the effectiveness of various machine learning models in accurately predicting bike-sharing demand. Evaluation metrics like RMSE, MAE, and R-squared will be used to assess model performance.
