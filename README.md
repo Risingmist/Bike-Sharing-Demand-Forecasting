@@ -46,9 +46,11 @@ Steps followed to build the model:-
 
 Models Explored
 
-1.Linear Regression  
- 2.Decision Tree 
-  3.Gradient Boosting
+1.Linear Regression
+
+2.Decision Tree
+
+3.Gradient Boosting
 
 Results
 
