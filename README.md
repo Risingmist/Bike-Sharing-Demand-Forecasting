@@ -11,6 +11,39 @@ Scripts: Utility scripts for data preprocessing, model training, and evaluation.
 Models: Saved trained models or model weights.
 Documentation: Additional resources, references, or project documentation.
 
+Steps followed to build the model:-
+
+### 1. Data Preprocessing:
+- **Data Cleaning:** Check for missing values, outliers, and inconsistencies in the dataset.
+- **Feature Engineering:** Extract useful features from the provided data (e.g., extracting date features from datetime).
+- **Encoding Categorical Variables:** Convert categorical variables like 'season', 'holiday', 'weather' into numerical values using techniques like one-hot encoding or label encoding.
+
+### 2. Exploratory Data Analysis (EDA):
+- **Visualize Relationships:** Explore correlations between variables using graphs and statistical methods.
+- **Understand Distributions:** Check the distribution of the target variable ('count') and other variables.
+- **Identify Patterns:** Look for patterns or trends in rental counts concerning different factors (e.g., weather, time of day, etc.).
+
+### 3. Feature Selection:
+- **Correlation Analysis:** Identify highly correlated features and eliminate redundant ones.
+- **Feature Importance:** Use techniques like RandomForest or Gradient Boosting to determine which features are most influential.
+
+### 4. Model Selection and Training:
+- Choose appropriate regression models (e.g., Linear Regression, Random Forest, Gradient Boosting).
+- Split the data into training and testing sets.
+- Train the chosen models on the training data.
+
+### 5. Model Evaluation:
+- Use evaluation metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or Mean Absolute Error (MAE) to assess model performance.
+- Evaluate the model on the testing set to ensure it generalizes well.
+
+### 6. Model Tuning and Improvement:
+- Tune hyperparameters to improve model performance using techniques like cross-validation or grid search.
+- Consider ensemble methods or more sophisticated algorithms to enhance predictions.
+
+### 7. Model Deployment and Monitoring:
+- Deploy the model into a production environment where it can make predictions based on new inputs.
+- Continuously monitor the model's performance and retrain/update it as needed with new data.
+
 Models Explored
 Linear Regression
 Decision Tree
