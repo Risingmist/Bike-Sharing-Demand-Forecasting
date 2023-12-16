@@ -48,7 +48,7 @@ Models Explored
 
 1.Linear Regression  
  2.Decision Tree
- 3.Gradient Boosting
+  3.Gradient Boosting
 
 Results
 
