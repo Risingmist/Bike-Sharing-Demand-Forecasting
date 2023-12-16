@@ -45,8 +45,11 @@ Steps followed to build the model:-
 - Continuously monitor the model's performance and retrain/update it as needed with new data.
 
 Models Explored
+
 Linear Regression
+
 Decision Tree
+
 Gradient Boosting
 
 Results
